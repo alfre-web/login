@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Acceso</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="login">
+        <form class="contenedor" id="guardar-login" method="POST" action="modelo-usuarios.php">
+            <div class="formulario">
+                <h2 style="text-align:center;">Login de Acceso</h2>
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" placeholder="Ingrese su Usuario">
+                <label for="password">Password:</label>
+                <input type="password" name="password" placeholder="Ingrese su password">
+                <div class="enviar">
+                    <input type="hidden" name="registro" value="login">
+                    <input type="submit" class="btn">
+                    <p style="text-align:right;">¿No tienes una cuenta?</p>
+                    <p style="text-align:right;">Haga click <a href="formulario-registro.html" style="color:red">Aquí</a>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

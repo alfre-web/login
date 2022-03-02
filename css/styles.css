@@ -1,0 +1,43 @@
+/* estilos - formulario */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.formulario{
+    border: 1px solid #e1e1e1;
+    padding: 20px 40px;
+    box-shadow: 2px 12px 12px rgba(0, 0, 0, 0.2);
+}
+
+label, input{
+    display: block;
+}
+
+label, input {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input:not([type="submit"]){
+    border: none;
+    background-color: #e1e1e1;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    border: none;
+    background: blue;
+    padding: 10px 25px;
+    color: #ffffff;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
